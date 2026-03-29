@@ -1,0 +1,35 @@
+{
+    "timestamp": "2026-03-23T20:15:55.955926",
+    "dataset": "Churn_Modelling.csv",
+    "simple_ann": {
+        "train_accuracy": 0.88375,
+        "test_accuracy": 0.8585,
+        "architecture": [
+            4,
+            64,
+            32,
+            2
+        ]
+    },
+    "advanced_ann": {
+        "train_accuracy": 0.861625,
+        "test_accuracy": 0.863,
+        "roc_auc": 0.8561766697359917,
+        "cv_mean": 0.8532500000000001,
+        "cv_std": 0.007607562027351464,
+        "architecture": [
+            11,
+            128,
+            64,
+            32,
+            2
+        ],
+        "hyperparameters": {
+            "solver": "adam",
+            "alpha": 0.0001,
+            "max_iter": 200,
+            "batch_size": 16,
+            "early_stopping": true
+        }
+    }
+}
